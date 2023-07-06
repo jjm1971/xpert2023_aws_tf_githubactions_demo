@@ -19,7 +19,7 @@ resource "aws_route_table" "fgtvmprivatert" {
   vpc_id = aws_vpc.fgtvm-vpc.id
 
   tags = {
-    Name = "fgtvm-private-rt"
+    Name = "fgtvm-private-rt1"
   }
 }
 
